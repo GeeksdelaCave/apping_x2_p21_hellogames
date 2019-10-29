@@ -1,2 +1,5 @@
-# apping_x2_p21_hellogames
-TP à rendre
+# HelloGames
+TP à rendre pour le cours d'initiation à Android.
+
+## Authors
+* Tristan Dietz
