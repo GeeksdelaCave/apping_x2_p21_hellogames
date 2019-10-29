@@ -13,19 +13,19 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Glide
-            .with(this)
+            .with(this@MainActivity)
             .load("https://upload.wikimedia.org/wikipedia/commons/4/48/15-Puzzle.jpg")
             .into(imageView)
         Glide
-            .with(this)
+            .with(this@MainActivity)
             .load("https://upload.wikimedia.org/wikipedia/commons/f/f6/Tic_Tac_Toe.png")
             .into(imageView2)
         Glide
-            .with(this)
+            .with(this@MainActivity)
             .load("https://cdn.education.com/worksheet-image/126064/printable-memory-game-printable-board.png")
             .into(imageView3)
         Glide
-            .with(this)
+            .with(this@MainActivity)
             .load("https://datagenetics.com/blog/december32011/progress.png")
             .into(imageView4)
     }
